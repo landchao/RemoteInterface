@@ -21,6 +21,7 @@ public class InterfaceServer {
         provider.setPort(9999);
         provider.setServiceAddr("127.0.0.1");
 
+
         RpcServer server = new RpcServer();
         server.setProviderConfig(provider);
         server.setServiceRegistry(serviceRegistry);
